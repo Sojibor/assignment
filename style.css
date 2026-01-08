@@ -95,3 +95,23 @@ button:hover{
     padding: 10px;
     border-radius: 100%;
 }
+.solution{
+    display: flex;
+    justify-content: center;
+    max-width: 75%;
+    gap: 50px;
+}
+.solution-r li{
+    list-style: none;
+    font-weight: bold;
+}
+.solution-r h4{
+color: #469165;
+font-size: small;
+}
+.solution-r h2{
+    font-size: 40px;
+}
+.solution-r p{
+    font-size: 20px;
+}
