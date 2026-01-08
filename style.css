@@ -4,6 +4,11 @@ a{
 color: black;
 }
 
+body{
+  font-family: "Open Sans", sans-serif;
+
+}
+
 #navbar {
   display: flex;
   align-items: center;
@@ -11,7 +16,6 @@ color: black;
   padding: 16px 24px;
   background-color: #fff;
 }
-
 
 .logo {}
 
@@ -41,6 +45,7 @@ button:hover{
   border-radius: 5px;
   cursor: pointer;
   font-weight: 700;
+  font-size: 18px;
 }
 .btn-w{
     background-color: #ffffff;
@@ -59,7 +64,7 @@ button:hover{
 }
 #hero{
     background-image: url(assets/hero-bg.png);
-    height: 600px;
+    height: 700px;
     text-align: center;
     justify-content: center;
     margin: auto;
@@ -114,4 +119,13 @@ font-size: small;
 }
 .solution-r p{
     font-size: 20px;
+}
+#early{
+    justify-content: center;
+    width: 75%;
+    text-align: center;
+    background-color:#F6F5F1;
+    padding:50px 0px;
+    margin-top: 100px;
+    border-radius: 10px;
 }
