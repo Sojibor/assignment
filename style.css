@@ -35,7 +35,7 @@ body {
   color: #469165;
 }
 button:hover {
-  background-color: red !important;
+  background-color: #F85454;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
   transition-duration: 100ms;
   cursor: pointer;
@@ -111,7 +111,7 @@ button:hover {
   padding: 30px 12px;
 }
 .notesitems img {
-  background-color: red;
+  background-color:#F85454;
   padding: 10px;
   border-radius: 100%;
   margin-bottom: 20px;
@@ -132,7 +132,7 @@ button:hover {
   font-weight: 500;
 }
 .solution-r h2 {
-  font-size: 50px;
+  font-size: 34px;
 }
 .solution-r p {
   font-size: 20px;
@@ -142,11 +142,18 @@ button:hover {
   width: 75%;
   text-align: center;
   background-color: #f6f5f1;
-  padding: 50px 0px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding: 60px 0px;
+  margin-top: 120px;
+  margin-bottom: 120px;
   border-radius: 10px;
 }
+#early h2{
+    font-size: 35px;
+}
+#early p{
+    font-size: 16px;
+}
+
 footer {
   background-color: #001830;
   text-align: center;
@@ -165,9 +172,12 @@ footer {
 .footer-r i {
   color: white;
 }
+.footer-r i:hover{
+    color:#F85454;
+}
 footer hr {
-  color: white;
   width: 75%;
+  
 }
 footer p {
   color: white;
