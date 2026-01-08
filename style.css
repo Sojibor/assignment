@@ -17,10 +17,6 @@ body {
   padding: 16px 24px;
   background-color: #fff;
 }
-
-.logo {
-}
-
 .menu ul {
   display: flex;
   gap: 24px;
